@@ -16,6 +16,7 @@ export const useDragDrop = (index: number, moveItem: (dragIndex: number, hoverIn
     },
   });
 
+  // @ts-ignore
   const [{ isDragging }, drag] = useDrag({
     type: ItemType,
     item: { index },

@@ -112,6 +112,7 @@ const useInnerDragDrop = (
     },
   });
 
+  // @ts-ignore
   const [{ isDragging }, drag] = useDrag({
     type: ItemType,
     item: { parentIndex, index },

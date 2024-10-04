@@ -89,6 +89,7 @@ const SideNav = () => {
 
   const [originalItemsList, setOriginalItemsList] = useState(itemsList);
 
+  // @ts-ignore
   const handleChange = (panel: string) => (event: React.SyntheticEvent, isExpanded: boolean) => {
     setExpanded(isExpanded ? panel : false);
   };
